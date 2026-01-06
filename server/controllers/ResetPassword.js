@@ -98,5 +98,3 @@ exports.resetPassword = async (req,res) => {
         })
     }
 }
-
-// last 5 min revision
