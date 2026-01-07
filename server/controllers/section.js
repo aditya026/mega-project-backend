@@ -80,6 +80,7 @@ exports.delete = async (req, res) => {
         const {sectionId} = req.params
         //  findbyIdAndDelete
         await Section.findbyIdAndDelete(sectionId);
+
         // return response
         return res.status(200).json({
             success: true,
